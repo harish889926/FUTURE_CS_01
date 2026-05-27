@@ -1,0 +1,46 @@
+TARGET: https://demo.testfire.net (Altoro Mutual)
+DATE: 27-05-2026
+TESTER: Pandiri harish
+TOOLS: Nmap, OWASP ZAP 2.17.0, Firefox DevTools
+
+FINDING 01 — Cross-Site Scripting (XSS) - Search Bar
+Risk: HIGH | Screenshot: 02_xss_search_bar.jpg
+
+FINDING 02 — Cross-Site Scripting (XSS) - Feedback Page
+Risk: HIGH | Screenshot: 03_xss_feedback_page.jpg
+
+FINDING 03 — Absence of Anti-CSRF Tokens
+Risk: HIGH | Screenshot: 04_csrf_missing.jpg
+
+FINDING 04 — Missing Content Security Policy (CSP)
+Risk: MEDIUM | Screenshot: 05_csp_header_missing.jpg
+
+FINDING 05 — Missing Anti-Clickjacking Header
+Risk: MEDIUM | Screenshot: 06_clickjacking_header_missing.jpg
+
+FINDING 06 — Sub Resource Integrity Attribute Missing
+Risk: MEDIUM | Screenshot: 07_sri_missing.jpg
+
+FINDING 07 — Exposed REST API via Swagger UI
+Risk: MEDIUM | Screenshot: 08_swagger_api_exposed.jpg
+
+FINDING 08 — Server Version Disclosure
+Risk: LOW | Screenshot: 09_server_version_disclosure.jpg
+
+FINDING 09 — Cookie Without SameSite Attribute
+Risk: LOW | Screenshot: 10_cookie_samesite_missing.jpg
+
+FINDING 10 — Missing HSTS Header
+Risk: LOW | Screenshot: 11_hsts_missing.jpg
+
+FINDING 11 — X-Content-Type-Options Header Missing
+Risk: LOW | Screenshot: 12_xcontent_type_missing.jpg
+
+FINDING 12 — Sensitive Info in HTML Comments
+Risk: LOW | Screenshot: 13_sensitive_html_comments.jpg
+
+FINDING 13 — Debug Error Messages Disclosed
+Risk: LOW | Screenshot: 14_debug_error_messages.jpg
+
+FINDING 14 — Autocomplete on Password Field
+Risk: LOW | Screenshot: 15_autocomplete_password.jpg
