@@ -41,9 +41,9 @@
 ##  Repository Structure
 FUTURE_CS_01/
 ├── README.md
-├── screenshots/     ← All evidence screenshots
-├── report/          ← Full PDF report (Canva)
-└── notes/           ← Raw findings notes
+├── screenshots/    
+├── report/          
+└── notes/           
 
 ##  Intern Details
 - **Track:** Cyber Security (CS)
